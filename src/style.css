@@ -1,0 +1,31 @@
+/* A debug class, used to separate components graphically during development */
+.debug {
+    border-style:solid;
+}
+.align-right {
+    text-align: right;
+} 
+/* tw.2.2.2*/
+
+.search-results-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  }
+  
+  .search-results {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  }
+  
+  button {
+  cursor: pointer;
+  }
+  
+  .details-image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  }
+  
